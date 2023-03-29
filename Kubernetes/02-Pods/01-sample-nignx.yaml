@@ -15,7 +15,7 @@ spec:
       protocol: TCP
 ---
 # With this approach, we can access/test application from outside the cluster http://node-ip:8090
-# node-ip is IP address(Public) of the node where POD was running
+# node-ip is IP address(Public) of the node where POD was running .
 apiVersion: v1
 kind: Pod
 metadata:
